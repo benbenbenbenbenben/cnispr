@@ -1,0 +1,32 @@
+{
+  "name": "cnispr",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "src/cnispr.ts",             
+  "badges": [],
+  "exports": {
+    "require": "./dist/cnispr.cjs",      
+    "default": "./dist/cnispr.modern.js" 
+  },
+  "main": "./dist/cnispr.cjs",           
+  "module": "./dist/cnispr.module.js",   
+  "unpkg": "./dist/cnispr.umd.js",       
+  "scripts": {
+    "build": "microbundle",           
+    "dev": "microbundle watch"        
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbenbenbenbenben/cnispr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benbenbenbenbenben/cnispr/issues"
+  },
+  "homepage": "https://github.com/benbenbenbenbenben/cnispr#readme",
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  }
+}
